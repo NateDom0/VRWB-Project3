@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 3d92e4c0cadd6e84299e1767ae4c130c, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: ee2ef9067e56cb74f8035fe4b9d7f87a, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -252,11 +252,11 @@ Transform:
   - {fileID: 166926676}
   - {fileID: 1621326185}
   - {fileID: 2067163660}
-  - {fileID: 130105132}
   - {fileID: 146652768}
+  - {fileID: 130105132}
   - {fileID: 1347570089}
-  - {fileID: 1127173441}
   - {fileID: 1254483386}
+  - {fileID: 1127173441}
   - {fileID: 1640871656}
   - {fileID: 1881818710}
   - {fileID: 1347003042}
@@ -2346,8 +2346,8 @@ Transform:
   - {fileID: 2123579972}
   - {fileID: 2086098165}
   - {fileID: 1714407978}
-  - {fileID: 639249834}
   - {fileID: 675136944}
+  - {fileID: 639249834}
   - {fileID: 1942728309}
   - {fileID: 1268157037}
   - {fileID: 636391559}
@@ -6645,15 +6645,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1263289685}
     m_Modifications:
+    - target: {fileID: -8737635261004759763, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: -8737635261004759763, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6673,15 +6677,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6699,6 +6703,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ec648430bc543294391eef89bc8885d3, type: 2}
+    - target: {fileID: -2098944238192638409, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: -2098944238192638409, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -6720,8 +6728,16 @@ PrefabInstance:
       value: Bridge2_Mod
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072481428595941928, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5072481428595941928, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6748,6 +6764,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!4 &1144573196 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: adf1d917f0b1f6c418b520e0c4261f5b, type: 3}
+  m_PrefabInstance: {fileID: 1144573193}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1147828109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7603,6 +7624,7 @@ Transform:
   - {fileID: 1329381756}
   - {fileID: 1920383633}
   - {fileID: 718973793}
+  - {fileID: 1144573196}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13115,6 +13137,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd1aa003e02705240b520fb009932d88, type: 3}
       propertyPath: m_Name
       value: LowPolyTerrain-Modified
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd1aa003e02705240b520fb009932d88, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd1aa003e02705240b520fb009932d88, type: 3}
       propertyPath: m_StaticEditorFlags
